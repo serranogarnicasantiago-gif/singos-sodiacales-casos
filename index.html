@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Signos Zodiacales</title>
+</head>
+<body>
+  <script>
+    let mes = prompt("Ingresa tu mes de nacimiento (ej. enero, febrero, marzo...):");
+
+    if (mes) {
+      switch (mes.toLowerCase().trim()) {
+        case "enero":
+          alert("Tu signo es Capricornio o Acuario");
+          break;
+        case "febrero":
+          alert("Tu signo es Acuario o Piscis");
+          break;
+        case "marzo":
+          alert("Tu signo es Piscis o Aries");
+          break;
+        case "abril":
+          alert("Tu signo es Aries o Tauro");
+          break;
+        case "mayo":
+          alert("Tu signo es Tauro o Géminis");
+          break;
+        case "junio":
+          alert("Tu signo es Géminis o Cáncer");
+          break;
+        case "julio":
+          alert("Tu signo es Cáncer o Leo");
+          break;
+        case "agosto":
+          alert("Tu signo es Leo o Virgo");
+          break;
+        case "septiembre":
+          alert("Tu signo es Virgo o Libra");
+          break;
+        case "octubre":
+          alert("Tu signo es Libra o Escorpio");
+          break;
+        case "noviembre":
+          alert("Tu signo es Escorpio o Sagitario");
+          break;
+        case "diciembre":
+          alert("Tu signo es Sagitario o Capricornio");
+          break;
+        default:
+          alert("Ese no es un mes válido");
+      }
+    }
+  </script>
+</body>
+</html>
